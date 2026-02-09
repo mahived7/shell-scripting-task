@@ -1,0 +1,20 @@
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Log files (keep samples only)
+logs/*.log
+!logs/sample.log
+
+# Backup files (keep structure only)
+backups/*.tar.gz
+!backups/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/

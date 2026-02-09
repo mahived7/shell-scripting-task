@@ -1,0 +1,96 @@
+=== System Information ===
+Hostname: Mahived7
+Operating System: Linux
+Kernel Version: 6.6.87.2-microsoft-standard-WSL2
+Uptime: up 51 minutes
+Current User: root
+Current Date: Mon Feb  9 12:24:30 IST 2026
+=== System Information Script ===
+User: root
+Hostname: Mahived7
+Date: 2026-02-09
+Operating System: Linux
+=== System Information Script ===
+User: root
+Disk Usage: 1%
+✓ Disk usage is normal
+=== Listing files in current directory ===
+Found: README.md
+Found: execution_20260209_122135.log
+Found: logs
+Found: outputs
+Found: screenshots
+Found: scripts
+Creating test log files...
+=== Found Log Files ===
+-rw-r--r-- 1 root root 49 Feb  9 12:24 /root/test_logs/access.log
+-rw-r--r-- 1 root root 96 Feb  9 12:24 /root/test_logs/app.log
+-rw-r--r-- 1 root root 52 Feb  9 12:24 /root/test_logs/error.log
+
+=== Starting Backup ===
+✓ Backup created successfully: /root/log_backups/logs_backup_20260209_122430.tar.gz
+-rw-r--r-- 1 root root 266 Feb  9 12:24 /root/log_backups/logs_backup_20260209_122430.tar.gz
+
+=== Cleaning Old Backups ===
+Old backups cleaned up
+
+=== Automation Complete ===
+Creating test log files...
+=== Found Log Files ===
+-rw-r--r-- 1 root root  49 Feb  9 12:24 /root/test_logs/access.log
+-rw-r--r-- 1 root root 140 Feb  9 12:24 /root/test_logs/app.log
+-rw-r--r-- 1 root root  52 Feb  9 12:24 /root/test_logs/error.log
+
+=== Starting Backup ===
+✓ Backup created successfully: /root/log_backups/logs_backup_20260209_122430.tar.gz
+-rw-r--r-- 1 root root 270 Feb  9 12:24 /root/log_backups/logs_backup_20260209_122430.tar.gz
+
+=== Cleaning Old Backups ===
+Old backups cleaned up
+
+=== Automation Complete ===
+All output is being saved to: execution_20260209_122430.log
+=========================================
+DevOps Automation Script Started
+Execution Time: Mon Feb  9 12:24:30 IST 2026
+=========================================
+
+[INFO] Starting automation tasks...
+
+
+[INFO] Creating necessary directories...
+[SUCCESS] Directories created/verified
+
+[INFO] Creating test log files...
+[SUCCESS] Test logs created
+
+=========================================
+LOG FILES FOUND
+=========================================
+-rw-r--r-- 1 root root 49 Feb  9 12:24 /root/test_logs/access.log
+-rw-r--r-- 1 root root 52 Feb  9 12:24 /root/test_logs/app.log
+-rw-r--r-- 1 root root 52 Feb  9 12:24 /root/test_logs/error.log
+
+=========================================
+CREATING BACKUP
+=========================================
+[SUCCESS] Backup created: /root/log_backups/logs_backup_20260209_122430.tar.gz
+[INFO] Backup size: 4.0K
+
+=========================================
+CLEANING OLD BACKUPS
+=========================================
+[INFO] Backups before cleanup: 5
+[INFO] Backups after cleanup: 5
+[INFO] Removed 0 old backup(s)
+
+=========================================
+EXECUTION SUMMARY
+=========================================
+Backup Directory: /root/log_backups
+Log Directory: /root/test_logs
+Execution Log: execution_20260209_122430.log
+Completion Time: Mon Feb  9 12:24:30 IST 2026
+=========================================
+
+[SUCCESS] All automation tasks completed successfully!

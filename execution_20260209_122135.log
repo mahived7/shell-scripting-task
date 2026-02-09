@@ -1,0 +1,89 @@
+All output is being saved to: execution_20260209_122135.log
+=========================================
+DevOps Automation Script Started
+=========================================
+DevOps Automation Script Started
+Execution Time: Mon Feb  9 12:21:35 IST 2026
+=========================================
+Execution Time: Mon Feb  9 12:21:35 IST 2026
+=========================================
+
+[INFO] Starting automation tasks...
+
+
+[INFO] Creating necessary directories...
+
+[INFO] Starting automation tasks...
+
+
+[INFO] Creating necessary directories...
+[SUCCESS] Directories created/verified
+
+[INFO] Creating test log files...
+[SUCCESS] Directories created/verified
+
+[INFO] Creating test log files...
+[SUCCESS] Test logs created
+
+=========================================
+LOG FILES FOUND
+=========================================
+[SUCCESS] Test logs created
+
+=========================================
+LOG FILES FOUND
+=========================================
+-rw-r--r-- 1 root root 49 Feb  9 12:21 /root/test_logs/access.log
+-rw-r--r-- 1 root root 52 Feb  9 12:21 /root/test_logs/app.log
+-rw-r--r-- 1 root root 52 Feb  9 12:21 /root/test_logs/error.log
+-rw-r--r-- 1 root root 49 Feb  9 12:21 /root/test_logs/access.log
+-rw-r--r-- 1 root root 52 Feb  9 12:21 /root/test_logs/app.log
+-rw-r--r-- 1 root root 52 Feb  9 12:21 /root/test_logs/error.log
+
+=========================================
+CREATING BACKUP
+=========================================
+
+=========================================
+CREATING BACKUP
+=========================================
+[SUCCESS] Backup created: /root/log_backups/logs_backup_20260209_122135.tar.gz
+[SUCCESS] Backup created: /root/log_backups/logs_backup_20260209_122135.tar.gz
+[INFO] Backup size: 4.0K
+[INFO] Backup size: 4.0K
+
+=========================================
+CLEANING OLD BACKUPS
+=========================================
+
+=========================================
+CLEANING OLD BACKUPS
+=========================================
+[INFO] Backups before cleanup: 4
+[INFO] Backups before cleanup: 4
+[INFO] Backups after cleanup: 4
+[INFO] Removed 0 old backup(s)
+
+=========================================
+EXECUTION SUMMARY
+=========================================
+Backup Directory: /root/log_backups
+[INFO] Backups after cleanup: 4
+Log Directory: /root/test_logs
+Execution Log: execution_20260209_122135.log
+[INFO] Removed 0 old backup(s)
+
+=========================================
+EXECUTION SUMMARY
+=========================================
+Backup Directory: /root/log_backups
+Log Directory: /root/test_logs
+Execution Log: execution_20260209_122135.log
+Completion Time: Mon Feb  9 12:21:35 IST 2026
+=========================================
+Completion Time: Mon Feb  9 12:21:35 IST 2026
+=========================================
+
+[SUCCESS] All automation tasks completed successfully!
+
+[SUCCESS] All automation tasks completed successfully!
